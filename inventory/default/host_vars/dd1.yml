@@ -1,0 +1,8 @@
+---
+
+ansible_host: "192.168.0.103"
+ansible_ssh_user: "sysadmin"
+ansible_ssh_password: "Mypassword123!"
+
+dd_ports:
+  - "ethV1"

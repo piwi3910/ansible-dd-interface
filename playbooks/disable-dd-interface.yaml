@@ -1,0 +1,8 @@
+- hosts: datadomain
+  become: no
+  gather_facts: no
+  tasks:
+    - name: Disable port
+      raw: "net config {{ item }} down"
+      with_items: "{{ dd_ports }}"
+        

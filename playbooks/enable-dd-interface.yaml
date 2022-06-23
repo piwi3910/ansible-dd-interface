@@ -1,0 +1,8 @@
+- hosts: datadomain
+  become: no
+  gather_facts: no
+  tasks:
+    - name: enable port
+      raw: "net config {{ item }} up"
+      with_items: "{{ dd_ports }}"
+        
