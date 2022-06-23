@@ -1,0 +1,14 @@
+*.retry
+/.idea/.gitignore
+/.idea/auto-hydra.iml
+/.idea/aws.xml
+/.idea/deployment.xml
+/.idea/modules.xml
+/.idea/orchide.xml
+/.idea/PipelineViewerConfig.xml
+/.idea/inspectionProfiles/profiles_settings.xml
+/.idea/inspectionProfiles/Project_Default.xml
+/.idea/vcs.xml
+/config/known_hosts
+/ansible_collections/*
+/roles/public/*
